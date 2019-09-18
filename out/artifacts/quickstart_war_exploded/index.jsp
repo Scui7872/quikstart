@@ -8,11 +8,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>Javaweb起步</title>
+    <title>首页</title>
   </head>
   <body>
-  hello,开始学习Javaweb！
-
-
+  <h2>欢迎您
+<%--  <%=request.getAttribute("username")%>--%>
+    <%=session.getAttribute("username")%>
+  </h2>
   </body>
 </html>
