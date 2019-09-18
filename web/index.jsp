@@ -11,7 +11,7 @@
     <title>首页</title>
   </head>
   <body>
-  <h2>欢迎您
+  <h2>欢迎您哈哈哈
 <%--  <%=request.getAttribute("username")%>--%>
     <%=session.getAttribute("username")%>
   </h2>
